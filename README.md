@@ -8,7 +8,11 @@ Note that (1) it doesn't do anything clever with the range header yet,
 (2) by default it looks back at the past seven days and (3) it's limited to
 display a maximum of 1000 downloads by the API.
 
-## Usage
+## Try it
+
+🔗 https://op3-viewer.vercel.app
+
+## Run locally
 
 ```sh
 # Install dependencies

@@ -12,7 +12,7 @@ export default function Home() {
 
   const onContinue = useCallback(() => {
     router.push(downloadsUrl(prefix));
-  }, [prefix]);
+  }, [router, prefix]);
 
   return (
     <div>

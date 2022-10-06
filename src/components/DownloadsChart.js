@@ -23,7 +23,7 @@ const DownloadsChart = ({ data }) => {
         alias: "Date",
       },
       downloads: {
-        alias: "Downloads",
+        alias: "Requests",
       },
     },
   };

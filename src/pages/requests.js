@@ -35,7 +35,7 @@ const DownloadsPage = () => {
       <h1 style={{ opacity: 0.4 }}>{prefix}*</h1>
       <Row gutter={[16, 16]}>
         <Col span={24}>
-          <Card title="Downloads">
+          <Card title="Requests">
             <DownloadsChart data={countDownloads(rows)} />
           </Card>
         </Col>

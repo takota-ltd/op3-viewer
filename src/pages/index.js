@@ -3,7 +3,7 @@ import { Button, Divider, Input, Space } from "antd";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const downloadsUrl = (prefix) => `/downloads?prefix=${prefix}&start=-7d`;
+const downloadsUrl = (prefix) => `/requests?prefix=${prefix}&start=-7d`;
 
 export default function Home() {
   const router = useRouter();
@@ -30,7 +30,7 @@ export default function Home() {
         <i>
           Note that (1) it doesn&apos;t do anything clever with the range header
           yet, (2) by default it looks back at the past seven days and (3)
-          it&apos;s limited to display a maximum of <b>1000 downloads</b> by the
+          it&apos;s limited to display a maximum of <b>1000 requests</b> by the
           API.
         </i>
       </p>
